@@ -65,8 +65,8 @@
 				<?php if($plxShow->plxMotor->aConf['capcha']): ?>
 				<p>
                 <label for="id_rep">
-                    <?php echo $plxShow->lang('ANTISPAM_WARNING') ?> <br/>
-                    <span class="symbol">x</span><?php $plxShow->capchaQ(); ?> :
+                    <span class="symbol">x</span><?php echo $plxShow->lang('ANTISPAM_WARNING') ?> <br/>
+                    <?php $plxShow->capchaQ(); ?> :
                 </label>
 
 				</p>
