@@ -9,7 +9,7 @@
 
                 <p>
                     <?php $plxShow->lang('POWERED_BY') ?> <a href="http://www.pluxml.org" title="<?php $plxShow->lang('PLUXML_DESCRIPTION') ?>">PluXml</a> 
-                    <?php $plxShow->lang('IN') ?> <?php $plxShow->chrono(); ?> utilisant la technologie <a href="http://psdtohtml5.fr">SASS</a> <span class="symbol">X</span><a rel="nofollow" href="<?php $plxShow->urlRewrite('core/admin/'); ?>" title="<?php $plxShow->lang('ADMINISTRATION') ?>"><?php $plxShow->lang('ADMINISTRATION') ?></a> -  <a href="<?php $plxShow->urlRewrite('#top') ?>" title="<?php $plxShow->lang('GOTO_TOP') ?>"><?php $plxShow->lang('TOP') ?></a> - <?php $plxShow->httpEncoding() ?>  <span class="symbol">.</span><a href="http://validator.w3.org/check?uri=referer">W3C</a>
+                    <?php $plxShow->lang('IN') ?> <?php $plxShow->chrono(); ?> utilisant la technologie <a href="psdtohtml5.fr">SASS</a> <span class="symbol">X</span><a rel="nofollow" href="<?php $plxShow->urlRewrite('core/admin/'); ?>" title="<?php $plxShow->lang('ADMINISTRATION') ?>"><?php $plxShow->lang('ADMINISTRATION') ?></a> -  <a href="<?php $plxShow->urlRewrite('#top') ?>" title="<?php $plxShow->lang('GOTO_TOP') ?>"><?php $plxShow->lang('TOP') ?></a> - <?php $plxShow->httpEncoding() ?>  <span class="symbol">.</span><a href="http://validator.w3.org/check?uri=referer">W3C</a>
                 </p>
             </div>
         </div>
@@ -33,9 +33,18 @@
             
         
 		});    
-            
 
+</script>  
 
-</script>    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54346250-1', 'auto');
+  ga('send', 'pageview');
+
+</script>  
 </body>
 </html>

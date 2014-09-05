@@ -1,0 +1,33 @@
+/* style de la sidebar*/
+aside{
+   .titre{
+       font-weight: 300;
+       font-size: $size * 1.8;
+       text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+           
+   }
+    
+    widget ul{
+        padding: 0;
+        
+    }
+    
+    .widget li{
+        list-style: none;
+        margin-left: -30px;
+        padding: 0;
+    }
+    
+    .widget a{
+        color: inherit
+    }
+    
+    .widget{
+        margin-bottom: 30px
+    }
+    
+    .symbol{
+        color: #96948e;
+        font-size: $size * 1.9
+    }
+}

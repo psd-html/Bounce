@@ -1,0 +1,68 @@
+/* style du template */
+
+body{
+    font-family: $police;
+    font-size: $size;
+    color: $primaire;
+    font-weight: 300;
+    
+    background-color: #ebede3;
+}
+
+/* header du site avec la navigation */
+header{
+   min-height: 70px;
+}
+
+/* mise en page du contenu du site */
+
+.blog{
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 35px;
+    
+    @include box-shadow(0px 1px 4px 1px #b4b6a9);
+    
+
+    visibility: hidden;
+    
+    .titre {
+        color: $color-titre;
+        margin-bottom: 10px;
+        
+    }
+} 
+.page{
+     background-color: #fff;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 35px;
+    
+    @include box-shadow(0px 1px 4px 1px #b4b6a9);
+    @include animate(bounce-in-up, .6s, 300ms); 
+}
+.blog:first-child{
+    visibility: visible; 
+    @include animate(flip-in-x, .6s, 0ms);
+}
+
+.effet{
+     visibility: visible; 
+    @include animate(flip-in-x, .6s, 0ms);
+
+}
+
+aside{
+   @include animate(bounce-in-right, .6s, 300ms); 
+}
+
+.bounce{
+     background-color: #fff;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 35px;
+    
+    @include box-shadow(0px 1px 4px 1px #b4b6a9);
+    @include animate(bounce-in-left, .6s, 300ms); 
+}

@@ -1,0 +1,57 @@
+/* bloc header */
+
+header{ background-color: $primaire; 
+        color: #fff;
+        padding-top: 10px;
+
+        @include box-shadow(0px 0px 6px 2px rgba(0,0,0,0.2));
+        border-bottom: 3px solid #f5f6ef;
+        border-top: 3px solid #f5f6ef;
+    
+        margin-bottom: 60px;
+    
+    a{color: inherit}
+    
+    .logo, .logo a{
+        line-height: 60px;
+        font-weight: 300;
+        font-size: $size * 3;
+        letter-spacing: -1px;
+        margin: 0;padding: 0;
+    }
+    .logo:before{
+        content: 'Q';
+        font-family: 'web_symbolsregular';
+    font-weight: normal;
+    font-style: normal;
+    margin: 0 20px 0 0 ;
+        font-size: $size * 4;
+    }
+    
+   .nav {position: relative;margin: 20px 0;
+       
+        ul li.navigation {
+            display: none
+            } 
+
+        ul {
+            margin: 0;padding: 0
+            }
+       
+        li {
+            margin: 0 5px 10px 0;
+            padding: 0;
+            list-style: none;
+            display: inline-block;
+            } 
+       
+        a {
+            font-size: $size * 1;  
+            padding: 3px 12px;
+            text-decoration: none;
+            line-height: 100%;
+            font-weight: 300;
+            text-transform: uppercase;
+            } 
+        }   
+}
