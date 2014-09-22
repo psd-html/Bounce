@@ -5,11 +5,11 @@ Template responsive
 Compatible avec la version 5.3.1
 
 
-Utlisation du Framework-responsive-PluXml
+Utlisation du Framework-responsive-PluXml avec l'ajout de shortcodes
 
-Ajout de shortcodes
 
-Placez le dossier Bounces dans votre dossier themes puis le dossier spxshortcodes dans votre dossier plugins.
+
+Placez le dossier Bounce dans votre dossier themes puis le dossier spxshortcodes dans votre dossier plugins.
 
 
 
