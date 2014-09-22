@@ -16,4 +16,4 @@ Placez le dossier Bounces dans votre dossier themes puis le dossier spxshortcode
 ![Alt text](http://libertea.fr/bounce.jpg)
 
 
-N'hésitez pas à me contacter sur http://psd-html.fr
+N'hésitez pas à me contacter sur http://psdtohtml5.fr
