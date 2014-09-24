@@ -15,6 +15,7 @@ Exemple de shortcodes :
 
 
 Création d'une notification avec ce shortcode:
+
 [info  texte="Ouverture de psd to HTML5 le 5 novembre 2014"]
 
 
