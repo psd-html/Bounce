@@ -35,8 +35,9 @@ textarea{
 input.capcha{
     width: 60px;
 }
+
 .bt, input[type='submit'] {
-    margin: 15px 0;
+    margin: 15px 0;line-height: 1;
     -webkit-appearance: none;  // remove shadow in iOS
     @include border-radius(0);  // remove border-radius in iOS
     @include border-radius(5px);
@@ -58,6 +59,7 @@ input.capcha{
         border: 1px solid $primaire;
     }
 }
+
 input[type='reset']{
     margin: 15px 0;
     -webkit-appearance: none;  // remove shadow in iOS

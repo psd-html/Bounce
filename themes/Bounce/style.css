@@ -565,6 +565,21 @@ aside {
   animation-name: bounceInLeft;
 }
 
+.info {
+  line-height: 1;
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background: #4f4e4c;
+  border: 1px solid #4f4e4c;
+  color: #fff;
+  font-size: 18.7px;
+  padding: 10px 15px;
+}
+
 /* bloc header */
 header {
   background-color: #4f4e4c;
@@ -692,6 +707,7 @@ input.capcha {
 
 .bt, input[type='submit'] {
   margin: 15px 0;
+  line-height: 1;
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
