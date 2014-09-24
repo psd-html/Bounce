@@ -11,6 +11,12 @@ Utlisation du Framework-responsive-PluXml avec l'ajout de shortcodes
 
 Placez le dossier Bounce dans votre dossier themes puis le dossier spxshortcodes dans votre dossier plugins.
 
+Exemple de shortcodes :
+
+
+Création d'une notification avec ce shortcode:
+[info  texte="Ouverture de psd to HTML5 le 5 novembre 2014"]
+
 
 
 ![Alt text](http://libertea.fr/bounce.jpg)
