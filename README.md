@@ -7,7 +7,7 @@ Compatible avec la version 5.3.1
 
 Utlisation du Framework-responsive-PluXml avec l'ajout de shortcodes
 
-
+Visible à cette adresse: http://libertea.fr
 
 Placez le dossier Bounce dans votre dossier themes puis le dossier spxshortcodes dans votre dossier plugins.
 
