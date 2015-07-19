@@ -20,7 +20,7 @@ Création d'une notification avec ce shortcode:
 
 
 
-![Alt text](http://libertea.fr/bounce.jpg)
+![Alt text](http://nextum.fr/bounce.jpg)
 
 
 N'hésitez pas à me contacter sur http://psdtohtml5.fr
