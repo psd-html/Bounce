@@ -14,5 +14,30 @@
             </div>
         </div>
     </footer>
+
+
+    
+<script>
+    if (window.jQuery == undefined) document.write( unescape('%3Cscript src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"%3E%3C/script%3E') );
+</script>
+          
+             
+        <script>
+        $(window).scroll(function() {
+           
+        
+        $('.blog').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("effet");
+			}});
+        
+		                      });    
+
+</script>
+
+ 
 </body>
 </html>
